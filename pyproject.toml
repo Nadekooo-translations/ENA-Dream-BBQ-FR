@@ -1,8 +1,0 @@
-[project]
-name = "ENA-Dream-BBQ-FR"
-version = "0.0.0"
-dependencies = [
-	"UnityPy",
-	"TypeTreeGeneratorAPI"
-]
-
