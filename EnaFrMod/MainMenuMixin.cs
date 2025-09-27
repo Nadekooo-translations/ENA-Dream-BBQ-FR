@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using HarmonyLib;
 using JoelG.ENA4.UI;
 using TMPro;
-using UnityEngine;
 
 namespace EnaFrMod;
 
@@ -41,14 +40,14 @@ public class MainMenuMixin
 	[HarmonyPrefix]
 	private static void InsertMenuItem(MainMenuPanel value)
 	{
-		Plugin.Logger.LogWarning($"Panel: {value}");
+		// Plugin.Logger.LogWarning($"Panel: {value}");
 
 		var components = value.GetComponentsInChildren<TMP_Text>();
 
-		foreach (var comp in components)
-		{
-			Plugin.Logger.LogWarning($"Component: {comp.text}");
-		}
+		// foreach (var comp in components)
+		// {
+		// 	Plugin.Logger.LogWarning($"Component: {comp.text}");
+		// }
 
 		if (MenuTranslations.TryGetValue(value.name, out Dictionary<string, string> translations))
 		{

@@ -16,5 +16,6 @@ public class Plugin : BaseUnityPlugin
 		Logger.LogInfo($"Plugin {MyPluginInfo.PLUGIN_GUID} is loaded!");
 
 		Harmony.CreateAndPatchAll(typeof(MainMenuMixin));
+		Harmony.CreateAndPatchAll(typeof(YarnMixins));
 	}
 }

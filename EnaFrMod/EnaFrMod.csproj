@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net46</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>EnaFrMod</AssemblyName>
     <Product>ENA Dream BBQ: En Français</Product>
     <Version>0.0.0</Version>
@@ -13,12 +13,15 @@
       https://nuget.samboy.dev/v3/index.json
     </RestoreAdditionalProjectSources>
     <RootNamespace>EnaFrMod</RootNamespace>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
     <PackageReference Include="BepInEx.Core" Version="5.*" />
     <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
+    <PackageReference Include="System.Text.Json" Version="9.0.9" />
     <PackageReference Include="UnityEngine.Modules" Version="2021.3.33" IncludeAssets="compile" />
   </ItemGroup>
 
@@ -27,9 +30,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="JoelG.ENA4" HintPath="/home/vincent/.steam/steam/steamapps/common/ENA Dream BBQ/ENA-4-DreamBBQ_Data/Managed/JoelG.ENA4.dll" Publicize="true" />
+    <Reference Include="JoelG.ENA4" HintPath="/home/vincent/.steam/steam/steamapps/common/ENA Dream BBQ/ENA-4-DreamBBQ_Data/Managed/JoelG.ENA4.dll" />
     <Reference Include="LMirman.VespaIO" HintPath="/home/vincent/.steam/steam/steamapps/common/ENA Dream BBQ/ENA-4-DreamBBQ_Data/Managed/LMirman.VespaIO.dll" />
     <Reference Include="LMirman.Utilities" HintPath="/home/vincent/.steam/steam/steamapps/common/ENA Dream BBQ/ENA-4-DreamBBQ_Data/Managed/LMirman.Utilities.dll" />
     <Reference Include="Unity.TMPro" HintPath="/home/vincent/.steam/steam/steamapps/common/ENA Dream BBQ/ENA-4-DreamBBQ_Data/Managed/Unity.TextMeshPro.dll" />
+    <Reference Include="YarnSpinner" HintPath="/home/vincent/.steam/steam/steamapps/common/ENA Dream BBQ/ENA-4-DreamBBQ_Data/Managed/YarnSpinner.dll" />
+    <Reference Include="YarnSpinner.Unity" HintPath="/home/vincent/.steam/steam/steamapps/common/ENA Dream BBQ/ENA-4-DreamBBQ_Data/Managed/YarnSpinner.Unity.dll" />
   </ItemGroup>
 </Project>
