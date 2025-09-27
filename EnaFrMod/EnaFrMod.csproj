@@ -21,7 +21,6 @@
     <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
     <PackageReference Include="BepInEx.Core" Version="5.*" />
     <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
-    <PackageReference Include="System.Text.Json" Version="9.0.9" />
     <PackageReference Include="UnityEngine.Modules" Version="2021.3.33" IncludeAssets="compile" />
   </ItemGroup>
 
@@ -36,5 +35,6 @@
     <Reference Include="Unity.TMPro" HintPath="/home/vincent/.steam/steam/steamapps/common/ENA Dream BBQ/ENA-4-DreamBBQ_Data/Managed/Unity.TextMeshPro.dll" />
     <Reference Include="YarnSpinner" HintPath="/home/vincent/.steam/steam/steamapps/common/ENA Dream BBQ/ENA-4-DreamBBQ_Data/Managed/YarnSpinner.dll" />
     <Reference Include="YarnSpinner.Unity" HintPath="/home/vincent/.steam/steam/steamapps/common/ENA Dream BBQ/ENA-4-DreamBBQ_Data/Managed/YarnSpinner.Unity.dll" />
+    <Reference Include="Newtonsoft.Json" HintPath="/home/vincent/.steam/steam/steamapps/common/ENA Dream BBQ/ENA-4-DreamBBQ_Data/Managed/Newtonsoft.Json.dll" />
   </ItemGroup>
 </Project>

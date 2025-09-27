@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.IO;
-using System.Text.Json.Nodes;
 using HarmonyLib;
 using JoelG.ENA4.UI.HUD.Dialogue;
 using UnityEngine.UIElements.Collections;
 using Yarn.Unity;
+using Newtonsoft.Json.Linq;
 
 namespace EnaFrMod;
 
@@ -18,11 +18,10 @@ public class YarnMixins
 
 		using StreamReader reader = new("fr.json");
 		string rawJson = reader.ReadToEnd();
-		JsonNode node = JsonNode.Parse(rawJson);
+		JObject node = JObject.Parse(rawJson);
+		JObject strings = node["yarn"] as JObject;
 
-		JsonObject strings = node.AsObject().Get("yarn").AsObject();
-
-		foreach (var key in (strings as IDictionary<string, JsonNode>).Keys)
+		foreach (var key in (strings as IDictionary<string, JToken>).Keys)
 		{
 			localization.AddLocalizedString(key, (string)strings.Get(key));
 		}
