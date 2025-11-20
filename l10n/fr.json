@@ -364,7 +364,7 @@
         "line:18ad3090": "Je dois admettre, j'admire ton courage naïf…",
         "line:33e18699": "...",
         "line:9bd2687a": "Nope.",
-        "line:fcbeb39f": "Qu'est-ce que sont ces histoires de \"cible\" ?",
+        "line:fcbeb39f": "Qu'est-ce que sont ces histoires de \"target\" ?",
         "line:b2ccc918": "...",
         "line:24fcce6f": "...",
         "line:f8195bd0": "Ouvrir cette Porte ?",
@@ -414,6 +414,12 @@
         "line:b567d699": "Nonkey Jong Entendu Code Secret Pour Pouvoir Ultime",
         "line:cbb6d649": "Nonkey Jong Pense Force Entre Deux Charges Électrostatiques Est Égale À La Constante De Force Électrostatique Fois Produit Des Deux Charges Divisé Par Distance Au Carré Entre Deux Charges",
         "line:803abe07": "Haut Haut Bas Bas Gauche Droite Gauche Droite Alt F4",
-        "line:3109bad5": "NcNonalds"
+        "line:3109bad5": "NcNonalds",
+        "line:2023d23e": "<style=ENASales>Il est impératif que je trouve le Boss, car c'est notre target du jour.</style>",
+        "line:9a72dba7": "<style=ENASales>La smoke nous fait obstacle et doit être éradiquée immédiatement.</style>",
+        "line:0c42dcd0": "Ce Boss que vous cherchez... connaissez-vous son arriéré ? Sa Famille ? Son visage ?... Même si tu ne peux pas répondre à ces questions, tu as l'air de bien connaître cette entité.",
+        "line:18f30eed": "Pas de punition. Personne ne mérite d'être puni pour être né.",
+        "line:73574a13": "Excepté toi, bien sûr.",
+        "line:734ad9ef": "<style=ENASales>Cher Génie : votre Boss est notre target, mais le smoke fait obstacle à nos affaires.</style>"
     }
 }
